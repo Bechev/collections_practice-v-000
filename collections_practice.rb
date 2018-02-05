@@ -12,5 +12,5 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  array.sort{|a,b,c| a<=>c<=>b}
+  array[1], array[2] =array[2],arra[1]
 end
