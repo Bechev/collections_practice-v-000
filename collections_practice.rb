@@ -22,5 +22,4 @@ end
 
 def kesha_maker(array)
   array.each {|element| element[2] = "4"   }
-  end
 end
