@@ -22,7 +22,7 @@ end
 
 def kesha_maker(array)
   array.each do |element| {
-    element.tr(element[2],"$")
+    element[2] = "4"
   }
-end
+  end
 end
