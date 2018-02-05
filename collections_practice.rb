@@ -32,3 +32,6 @@ def find_a(array)
    end}
  array_of_a
 end
+
+def sum_array(array)
+end
