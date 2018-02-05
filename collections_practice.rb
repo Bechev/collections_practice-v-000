@@ -12,7 +12,8 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  swap_elements_from_to(array,1,2)
+  array[1], array[2] = array[2], array[1]
+  array
 end
 
 def reverse_array(array)
@@ -20,4 +21,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
+  array.each do |element| {
+    element[2] = $
+  }
 end
