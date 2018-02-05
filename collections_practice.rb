@@ -13,3 +13,4 @@ end
 
 def swap_elements(array)
   array.sort{|a,b,c| a<=>c<=>b}
+end
