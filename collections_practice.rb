@@ -28,7 +28,7 @@ def find_a(array)
  array_of_a =[]
  array.each {|element|
    if element[0] == "a"
-     array_of_a << element }
-   end
+     array_of_a << element
+   end}
  array_of_a
 end
